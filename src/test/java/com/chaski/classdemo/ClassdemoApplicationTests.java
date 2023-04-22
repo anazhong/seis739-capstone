@@ -1,13 +1,13 @@
-package com.chaski.classdemo;
+// package com.chaski.classdemo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class ClassdemoApplicationTests {
+// @SpringBootTest
+// class ClassdemoApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }

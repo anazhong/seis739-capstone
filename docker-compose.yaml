@@ -8,12 +8,13 @@ services:
     depends_on:
       - mysql
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/calorietracker?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/calorietracker?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&autoReconnect=true&connectTimeout=10000
       SPRING_DATASOURCE_USERNAME: calorieuser
       SPRING_DATASOURCE_PASSWORD: caloriepassword
 
   mysql:
-    image: mysql:8.0.28
+    image: mysql:8.0.31
+    # platform: linux/arm64/v8
     container_name: mysql
     environment:
       MYSQL_DATABASE: calorietracker
