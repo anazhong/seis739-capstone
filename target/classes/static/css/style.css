@@ -1,4 +1,3 @@
-/* Reset some default styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +13,7 @@ body {
 h1 {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: lightcoral; 
     color: #fff;
     margin-bottom: 30px;
 }
@@ -64,7 +63,7 @@ select {
 
 button {
     height: 40px;
-    background-color: #333;
+    background-color: lightcoral;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
